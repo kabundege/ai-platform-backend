@@ -4,7 +4,9 @@ Content-Type: application/json
 
 {
     "phone": "250784824295",
-    "password": "kabundege"
+    "password": "kabundege",
+    "firstName": "Christophe",
+    "lastName": "kwizera"
 }
 ###
 POST http://localhost:2000/auth/signin
@@ -16,7 +18,7 @@ Content-Type: application/json
     "password": "kabundege"
 }
 ###
-GET http://localhost:2000/users/me
+GET http://localhost:2000/users/meqq
 Accept: application/json
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInBob25lIjoiMjUwNzg0ODI0Mjk1IiwiaWF0IjoxNjY5NjI1NTY4LCJleHAiOjE2Njk2MjY0Njh9.6a04fv9U8kEyoHEojdpSYBBCCBaFkJwuFX5viaVOTU8
